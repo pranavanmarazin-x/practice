@@ -53,8 +53,6 @@ class Car extends Vehicle
 $car = new Car("mustang", "wrangler");
 
 $car->setSpeed(60);
-echo $car->getSpeed();
-echo "<br>";
 
 echo $car->start();
 echo "<br>";
